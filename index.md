@@ -10,6 +10,8 @@ Mark any repository as a template. Anyone who can read it can then create a new 
 
 Runs on Atlassian and never stores your code. **Free while in beta.**
 
+**[Install Repo Starter in your Bitbucket workspace]({{ site.install_url }})** (workspace admins)
+
 - [Documentation and support](support)
 - [Privacy policy](privacy)
 - [End user terms](terms)

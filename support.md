@@ -6,6 +6,10 @@ title: Documentation and support
 
 Questions, bugs or ideas: email **[{{ site.support_email }}](mailto:{{ site.support_email }})**. We reply within 2 business days.
 
+## Install
+
+Open the **[installation link]({{ site.install_url }})** as a Bitbucket workspace admin, choose your workspace and approve the permissions. The workspace must belong to an Atlassian organization, which is how Bitbucket installs Forge apps.
+
 ## Quick start
 
 1. **Mark a template.** In the repository you want to use as a template, open **Repository settings → Forge Apps → Repository template**. Give it a name and description, tick any extra branches to create (for example `develop`), choose whether to copy the repository details and Pipelines settings, and click **Mark as template**. You need to be an admin of that repository.
