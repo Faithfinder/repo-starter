@@ -2,6 +2,16 @@
 # Served by GitHub Pages from the main branch of this public repo.
 title: "Repo Starter: Templates for Bitbucket"
 description: Create Bitbucket repositories from templates, with files, branches and settings copied in one go.
+# Served at projects.dkartashev.dev/<slug>/. _layouts/default.html styles every page with the shared
+# stylesheet from the user site (Faithfinder/faithfinder.github.io, /assets/site.css).
+slug: repo-starter
+plugins:
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 # Edit these lines; every page picks them up.
 vendor: Dmitrii Kartashev
